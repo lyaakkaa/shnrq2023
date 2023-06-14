@@ -6,7 +6,6 @@ from app.auth.adapters.jwt_service import JWTData
 from app.auth.router.dependencies import parse_jwt_user_data
 
 from ..service import Service, get_service
-
 from . import router
 
 
